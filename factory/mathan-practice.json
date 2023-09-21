@@ -1,0 +1,9 @@
+{
+	"name": "mathan-practice",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ebe845bf-a1f5-4a54-9f47-0b21f2bb2fc3",
+		"tenantId": "5b22e58b-e59d-4aba-ae37-3f1d94fc7070"
+	}
+}
