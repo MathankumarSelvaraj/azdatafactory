@@ -1,0 +1,17 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e90a7edd-69fa-41d0-aeea-ace3750b65b0/resourceGroups/mathan_covid_reporting/providers/Microsoft.Storage/storageAccounts/mathancovidreporting",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
