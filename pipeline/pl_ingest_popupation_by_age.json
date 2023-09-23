@@ -72,6 +72,26 @@
 						"value": "@equals(activity('metadata_population').output.columnCount,13)",
 						"type": "Expression"
 					},
+					"ifFalseActivities": [
+						{
+							"name": "Web1",
+							"type": "WebActivity",
+							"dependsOn": [],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"url": "https://mathakumar.com",
+								"method": "POST",
+								"body": "none"
+							}
+						}
+					],
 					"ifTrueActivities": [
 						{
 							"name": "copy population data_copy1",
