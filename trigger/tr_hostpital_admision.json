@@ -1,0 +1,17 @@
+{
+	"name": "tr_hostpital_admision",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2023-09-28T01:49:00",
+				"timeZone": "Pacific Standard Time"
+			}
+		}
+	}
+}
