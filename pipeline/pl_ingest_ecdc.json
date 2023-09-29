@@ -1,9 +1,9 @@
 {
-	"name": "pl_cases_death_ecdc",
+	"name": "pl_ingest_ecdc",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy cases_death",
+				"name": "Copy ecdc data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -48,7 +48,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_cases_deaths_csv_http",
+						"referenceName": "ds_ecdc_csv_http",
 						"type": "DatasetReference",
 						"parameters": {
 							"relativeURL": {
@@ -60,7 +60,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_cases_deaths_csv_dl",
+						"referenceName": "ds_ecdc_csv_dl",
 						"type": "DatasetReference",
 						"parameters": {
 							"filename": {
